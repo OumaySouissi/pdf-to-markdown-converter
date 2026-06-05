@@ -23,6 +23,13 @@ if uploaded_file is not None:
 
         st.subheader("Preview")
         st.code(markdown_content, language="markdown")
+        
+        st.download_button(
+            label="Download Markdown",
+            data=markdown_content,
+            file_name=f"{os.path.splitext(uploaded_file.name)[0]}.md",
+            mime="text/markdown"
+        )
     except Exception as e:
         st.error(f"An error occurred during conversion: {e}")
     finally:
