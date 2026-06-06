@@ -1,4 +1,5 @@
 # PDF to Markdown Converter
+<img width="1838" height="616" alt="image" src="https://github.com/user-attachments/assets/c338dd32-f04d-4a8c-8f70-6dd23019bb89" />
 
 A simple, 100% local, offline single-page Streamlit web application that converts PDF files to Markdown using the [markitdown](https://github.com/microsoft/markitdown) library.
 
