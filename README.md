@@ -11,11 +11,18 @@ A simple, 100% local, offline single-page Streamlit web application that convert
 
 ## Installation
 
-Ensure you have Python installed. It is recommended to use a virtual environment. Install the required dependencies using pip:
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/OumaySouissi/pdf-to-markdown-converter.git
+   cd pdf-to-markdown-converter
+   ```
 
-```bash
-pip install streamlit markitdown
-```
+2. **Install dependencies:**
+   Ensure you have Python installed. It is recommended to use a virtual environment. Install the required dependencies using pip:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
